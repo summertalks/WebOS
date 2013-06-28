@@ -1,0 +1,183 @@
+/* Styling for the Login page */
+
+/* Selection Color Styling */
+::selection{
+	background-color: #B93D00;
+}
+::-webkit-selection{
+	background-color: #B93D00;
+}
+::-moz-selection{
+	background-color: #B93D00;
+}
+::-o-selection{
+	background-color: #B93D00;
+}
+::-ms-selection{
+	background-color: #B93D00;
+}
+/* End Selection Color Styling */
+
+/* Link Styling */
+
+a:link {      /* unvisited link */
+	color: black;
+	text-decoration: none;
+}
+a:visited {   /* visited link */
+	color: black;
+	text-decoration: none;
+}
+a:hover {     /* mouse over link */
+	color: white;
+	text-decoration: none;
+}
+a:active {    /* selected link */
+	color: black;
+	text-decoration: none;
+}
+
+/* End Link Styling */
+
+body {
+	background-color: #00ECE0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#topBar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #D6D6D6;
+	height: 25px;
+	width: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#left {
+	float: left;
+}
+
+#middle {
+	position: absolute;
+	left: 50%;
+	top: 0px;
+}
+
+#right {
+	float: right;
+}
+
+#item1 {
+	background-color: #D6D6D6;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item1:hover {
+	background-color: #BAB4F8;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item2 {
+	background-color: #D6D6D6;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item2:hover {
+	background-color: #BAB4F8;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item3 {
+	background-color: #D6D6D6;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item3:hover {
+	background-color: #BAB4F8;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item4 {
+	background-color: #D6D6D6;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item4:hover {
+	background-color: #BAB4F8;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item5 {
+	background-color: #D6D6D6;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item5:hover {
+	background-color: #BAB4F8;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item6 {
+	background-color: #D6D6D6;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item6:hover {
+	background-color: #BAB4F8;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item7 {
+	background-color: #D6D6D6;
+	cursor:pointer;
+	cursor:hand
+}
+
+#item7:hover {
+	background-color: #BAB4F8;
+	cursor: pointer;
+	cursor: hand
+}
+
+
+#draggable {
+	width: 48px;
+	height: 48px;
+	padding: 0.5em;
+	cursor: move;
+}
+
+#draggable2 {
+	width: 48px;
+	height: 48px;
+	padding: 0.5em;
+	cursor: move;
+}
+
+#desktop {
+	height: 100%;
+	width: 100%;
+}
+
+.custom-menu {
+	z-index:1000;
+	position: absolute;
+	background-color:#C0C0C0;
+	border: 1px solid black;
+	padding: 2px;
+}

@@ -1,0 +1,41 @@
+/* Styling for the Login page */
+
+/* Selection Color Styling */
+::selection{
+  background-color: #B93D00;
+}
+::-webkit-selection{
+	background-color: #B93D00;
+}
+::-moz-selection{
+	background-color: #B93D00;
+}
+::-o-selection{
+	background-color: #B93D00;
+}
+::-ms-selection{
+	background-color: #B93D00;
+}
+/* End Selection Color Styling */
+
+body {
+	background-color: #0080FF;
+}
+
+h1 {
+	font-family: 'Arial';
+	font-size: 100px;
+	color: white;
+	padding-left: 50px;
+}
+
+form {
+	padding-left: 200px;
+}
+
+.textInput {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-left: 1px;
+}
